@@ -1,0 +1,47 @@
+div {
+    border: 1px solid black;
+    border-bottom: 0;
+}
+
+.container {
+    background-color: yellow;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.header {
+    background-color: blue;
+    height: 100px;
+}
+
+.nav {
+    background-color: green;
+    height: 35px;
+}
+
+.content {
+    background-color: red;
+    height: 150px;
+    /* width: 75%;
+    float: left; */
+}
+
+.aside {
+    background-color: cyan;
+    height: 150px;
+}
+
+.promo {
+    background-color: orange;
+    height: 100px;
+    /* width: 25%; */
+    /* float: left; */
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 35px;
+    border-bottom: 1px solid black;
+    /* clear: left; */
+}
