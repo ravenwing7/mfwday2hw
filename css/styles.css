@@ -1,12 +1,16 @@
-div {
+div, nav, header, aside, main, footer, section {
     border: 1px solid black;
     border-bottom: 0;
 }
 
-.container {
+.container-fluid {
     background-color: yellow;
     padding: 15px;
     border-bottom: 1px solid black;
+}
+
+.container {
+    border: 0;
 }
 
 .header {
@@ -22,8 +26,6 @@ div {
 .content {
     background-color: red;
     height: 150px;
-    /* width: 75%;
-    float: left; */
 }
 
 .aside {
@@ -34,8 +36,6 @@ div {
 .promo {
     background-color: orange;
     height: 100px;
-    /* width: 25%; */
-    /* float: left; */
 }
 
 .footer {
@@ -43,5 +43,4 @@ div {
     color: white;
     height: 35px;
     border-bottom: 1px solid black;
-    /* clear: left; */
 }
