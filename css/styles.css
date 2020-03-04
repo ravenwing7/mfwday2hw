@@ -1,0 +1,46 @@
+div, nav, header, aside, main, footer, section {
+    border: 1px solid black;
+    border-bottom: 0;
+}
+
+.container-fluid {
+    background-color: yellow;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    border: 0;
+}
+
+.header {
+    background-color: blue;
+    height: 100px;
+}
+
+.nav {
+    background-color: green;
+    height: 35px;
+}
+
+.content {
+    background-color: red;
+    height: 150px;
+}
+
+.aside {
+    background-color: cyan;
+    height: 150px;
+}
+
+.promo {
+    background-color: orange;
+    height: 100px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 35px;
+    border-bottom: 1px solid black;
+}
